@@ -1,0 +1,45 @@
+/* CSS styles for the Black Jack game */
+
+/* General styles */
+body {
+	font-family: "Trebuchet MS", 
+			"Lucida Grande", 
+			"Lucida Sans Unicode", 
+			"Lucida Sans", 
+			Tahoma, 
+			sans-serif;
+
+	background-image: url("images/table.jpg");
+	background-size: cover;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+/* Game title and information */
+h1 {
+	color: rgb(218, 165, 32);
+}
+
+#message-el {
+	font-style: italic;
+}
+
+/* Buttons */
+button {
+	background: rgb(218, 165, 32);
+	font-weight: bold;
+	width: 150px;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 4px;
+}
+
+/* Container for buttons */
+#container {
+	display: center;
+	justify-content: center;
+	height: 50px;
+	width: 300px;
+	margin: 0 auto;
+}
